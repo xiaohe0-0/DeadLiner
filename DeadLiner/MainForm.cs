@@ -20,8 +20,6 @@ namespace DeadLiner
         private List<string> countdownList;
         private Form_Remind fr;
         private int curID;
-        private int count = 0;
-        private Form_AR fa;
 
         //常量
         public const String TABLENAME = "DeadLine";
@@ -219,16 +217,15 @@ namespace DeadLiner
         private void btn_update_Click(object sender, EventArgs e)
         {
             Utils.settingSign = false;
-            Form_Setting fs = new Form_Setting(Utils.formLeft, Utils.formTop);
+            Form_Setting fs = new Form_Setting(Utils.formLeft,Utils.formTop);
             fs.ShowDialog();
-                if (Utils.settingSign)
+            if(Utils.settingSign){
+                FreshItem();
+                if (fr != null)
                 {
-                    FreshItem();
-                    if (fr != null)
-                    {
-                        fr.setClock();
-                    }
+                    fr.setClock();
                 }
+            }
         }
 
         private void timer_countdown_Tick(object sender, EventArgs e)

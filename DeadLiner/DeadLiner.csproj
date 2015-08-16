@@ -57,12 +57,6 @@
     <Compile Include="Form_ADD.Designer.cs">
       <DependentUpon>Form_ADD.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_AR.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_AR.Designer.cs">
-      <DependentUpon>Form_AR.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form_Setting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,9 +98,6 @@
     <Compile Include="Utils.cs" />
     <EmbeddedResource Include="Form_ADD.resx">
       <DependentUpon>Form_ADD.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_AR.resx">
-      <DependentUpon>Form_AR.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Setting.resx">
       <DependentUpon>Form_Setting.cs</DependentUpon>
@@ -162,9 +153,6 @@
     <Content Include="DB\DeadLineDB.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\ar_red.jpg" />
-    <Content Include="Images\ar_yellow.jpg" />
-    <None Include="Images\blue_ar.png" />
     <Content Include="Images\btn_close.jpg" />
     <Content Include="Images\clock_yellow.png" />
     <Content Include="Images\Image_Clock1.jpg" />

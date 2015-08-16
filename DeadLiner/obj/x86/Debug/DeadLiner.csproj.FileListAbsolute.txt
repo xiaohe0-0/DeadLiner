@@ -65,4 +65,3 @@ C:\My Programs\C#\DeadLiner\DeadLiner\bin\Debug\DAL.pdb
 C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Properties.Resources.resources
 C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.exe
 C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.pdb
-C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_AR.resources

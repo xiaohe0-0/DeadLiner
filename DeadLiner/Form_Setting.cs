@@ -71,7 +71,6 @@ namespace DeadLiner
             else if (radio_ma.Checked) {
                 Utils.picPath = "res_ma";
                 Utils.theme = "ma";
-                Utils.arSign = true;
             }
             else if (radio_tian.Checked)
             {

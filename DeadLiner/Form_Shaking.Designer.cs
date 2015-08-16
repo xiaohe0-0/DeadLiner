@@ -59,7 +59,6 @@
             this.Name = "Form_Shaking";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "死期到了！";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_Shaking_FormClosed);
             this.Load += new System.EventHandler(this.Form_Shaking_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_shaking)).EndInit();
             this.ResumeLayout(false);

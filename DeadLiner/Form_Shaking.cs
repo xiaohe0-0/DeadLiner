@@ -35,7 +35,7 @@ namespace DeadLiner
 
             //循环移动窗体位置,可以自己修改循环次数,次数越多,抖动时间越长
 
-            for (int i = 0; i <= 4; i++)
+            for (int i = 0; i <= 2; i++)
             {
 
                 //在窗体原来的位置的基础上随机改变窗体的坐标位置,其中的随机数区间可以随意修改,数值越大,抖动幅度越大,最好正负成对
@@ -62,14 +62,6 @@ namespace DeadLiner
         {
             formShake();
             timer_wait.Stop();
-        }
-
-        private void Form_Shaking_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            if (Utils.arSign) {
-                Form_AR fa = new Form_AR();
-                fa.ShowDialog();
-            }
         }
     }
 }

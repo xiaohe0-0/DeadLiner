@@ -23,7 +23,7 @@ namespace DeadLiner
         public static string clock_yellow = "Images/" + picPath + "/clock_yellow.png";
         public static string shakeBG = "Images/" + picPath + "/shakeBG.png";
         public static string remindBG = "Images/" + picPath + "/remind_clock.png";
-        public static bool arSign = false;
+
         public static string getShakeBG()
         {
             return "Images/" + picPath + "/shakeBG.png";
