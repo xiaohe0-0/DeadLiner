@@ -1,0 +1,21 @@
+D:\MyPrograms\Coding Programs\C#\DeadLiner\BLL\bin\Debug\BLL.dll
+D:\MyPrograms\Coding Programs\C#\DeadLiner\BLL\bin\Debug\BLL.pdb
+D:\MyPrograms\Coding Programs\C#\DeadLiner\BLL\bin\Debug\DAL.dll
+D:\MyPrograms\Coding Programs\C#\DeadLiner\BLL\bin\Debug\DAL.pdb
+D:\MyPrograms\Coding Programs\C#\DeadLiner\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\MyPrograms\Coding Programs\C#\DeadLiner\BLL\obj\Debug\BLL.dll
+D:\MyPrograms\Coding Programs\C#\DeadLiner\BLL\obj\Debug\BLL.pdb
+C:\Users\Administrator\Desktop\DeadLiner\BLL\bin\Debug\BLL.dll
+C:\Users\Administrator\Desktop\DeadLiner\BLL\bin\Debug\BLL.pdb
+C:\Users\Administrator\Desktop\DeadLiner\BLL\bin\Debug\DAL.dll
+C:\Users\Administrator\Desktop\DeadLiner\BLL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\DeadLiner\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\DeadLiner\BLL\obj\Debug\BLL.dll
+C:\Users\Administrator\Desktop\DeadLiner\BLL\obj\Debug\BLL.pdb
+C:\My Programs\C#\DeadLiner\BLL\bin\Debug\BLL.dll
+C:\My Programs\C#\DeadLiner\BLL\bin\Debug\BLL.pdb
+C:\My Programs\C#\DeadLiner\BLL\bin\Debug\DAL.dll
+C:\My Programs\C#\DeadLiner\BLL\bin\Debug\DAL.pdb
+C:\My Programs\C#\DeadLiner\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\My Programs\C#\DeadLiner\BLL\obj\Debug\BLL.dll
+C:\My Programs\C#\DeadLiner\BLL\obj\Debug\BLL.pdb

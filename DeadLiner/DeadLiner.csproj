@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E9AD944-F634-4E96-B1EF-65E45D727C72}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DeadLiner</RootNamespace>
+    <AssemblyName>DeadLiner</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DB\DeadLineDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DeadLineDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ADD.Designer.cs">
+      <DependentUpon>Form_ADD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AR.Designer.cs">
+      <DependentUpon>Form_AR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Setting.Designer.cs">
+      <DependentUpon>Form_Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Shaking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Shaking.Designer.cs">
+      <DependentUpon>Form_Shaking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Update.Designer.cs">
+      <DependentUpon>Form_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Form_Remind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Remind.designer.cs">
+      <DependentUpon>Form_Remind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserItem.Designer.cs">
+      <DependentUpon>UserItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils.cs" />
+    <EmbeddedResource Include="Form_ADD.resx">
+      <DependentUpon>Form_ADD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_AR.resx">
+      <DependentUpon>Form_AR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Setting.resx">
+      <DependentUpon>Form_Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Shaking.resx">
+      <DependentUpon>Form_Shaking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Update.resx">
+      <DependentUpon>Form_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Form_Remind.resx">
+      <DependentUpon>Form_Remind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserItem.resx">
+      <DependentUpon>UserItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="DB\DeadLineDBDataSet.xsc">
+      <DependentUpon>DeadLineDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB\DeadLineDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DeadLineDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB\DeadLineDBDataSet.xss">
+      <DependentUpon>DeadLineDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DB\DeadLineDB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ar_red.jpg" />
+    <Content Include="Images\ar_yellow.jpg" />
+    <None Include="Images\blue_ar.png" />
+    <Content Include="Images\btn_close.jpg" />
+    <Content Include="Images\clock_yellow.png" />
+    <Content Include="Images\Image_Clock1.jpg" />
+    <Content Include="Images\remindBG.jpg" />
+    <Content Include="Images\shakeBG.jpg" />
+    <Content Include="Images\shakeBG_Leader.png" />
+    <Content Include="Images\underline.png" />
+    <None Include="Resources\underline.bmp" />
+    <None Include="Images\clock_red.png" />
+    <None Include="Images\clock_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{FEE33DC8-D8F3-4589-BAF2-46D1E39F7D7C}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DAL\bin\Debug\DAL.dll
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DAL\bin\Debug\DAL.pdb
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DAL\obj\Debug\DAL.dll
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DAL\obj\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\DeadLiner\DAL\bin\Debug\DAL.dll
+C:\Users\Administrator\Desktop\DeadLiner\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\DeadLiner\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator\Desktop\DeadLiner\DAL\obj\Debug\DAL.pdb
+C:\My Programs\C#\DeadLiner\DAL\bin\Debug\DAL.dll
+C:\My Programs\C#\DeadLiner\DAL\bin\Debug\DAL.pdb
+C:\My Programs\C#\DeadLiner\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\My Programs\C#\DeadLiner\DAL\obj\Debug\DAL.dll
+C:\My Programs\C#\DeadLiner\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,68 @@
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csprojResolveAssemblyReference.cache
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.MainForm.resources
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Properties.Resources.resources
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csproj.GenerateResource.Cache
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe.config
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\bin\Debug\DB\DeadLineDB.accdb
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\bin\Debug\DeadLiner.pdb
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\bin\Debug\BLL.dll
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\bin\Debug\DAL.dll
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\bin\Debug\BLL.pdb
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\bin\Debug\DAL.pdb
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.exe
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.pdb
+D:\MyPrograms\Coding Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.UserItem.resources
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe.config
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.exe
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.pdb
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\bin\Debug\DB\DeadLineDB.accdb
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.pdb
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\bin\Debug\BLL.dll
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\bin\Debug\DAL.dll
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\bin\Debug\BLL.pdb
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\bin\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.MainForm.resources
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Properties.Resources.resources
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.UserItem.resources
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_ADD.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe.config
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.exe
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.pdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DB\DeadLineDB.accdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.pdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\BLL.dll
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DAL.dll
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\BLL.pdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DAL.pdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csprojResolveAssemblyReference.cache
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_ADD.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.MainForm.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Properties.Resources.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.UserItem.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csproj.GenerateResource.Cache
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csprojResolveAssemblyReference.cache
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_ADD.resources
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_Setting.resources
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_Shaking.resources
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_Update.resources
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.MainForm.resources
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_Remind.resources
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.UserItem.resources
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csproj.GenerateResource.Cache
+C:\My Programs\C#\DeadLiner\DeadLiner\bin\Debug\DB\DeadLineDB.accdb
+C:\My Programs\C#\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe.config
+C:\My Programs\C#\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe
+C:\My Programs\C#\DeadLiner\DeadLiner\bin\Debug\DeadLiner.pdb
+C:\My Programs\C#\DeadLiner\DeadLiner\bin\Debug\BLL.dll
+C:\My Programs\C#\DeadLiner\DeadLiner\bin\Debug\DAL.dll
+C:\My Programs\C#\DeadLiner\DeadLiner\bin\Debug\BLL.pdb
+C:\My Programs\C#\DeadLiner\DeadLiner\bin\Debug\DAL.pdb
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Properties.Resources.resources
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.exe
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.pdb
+C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_AR.resources
