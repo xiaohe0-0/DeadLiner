@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Shaking));
             this.timer_wait = new System.Windows.Forms.Timer(this.components);
             this.pictureBox_shaking = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_shaking)).BeginInit();
@@ -42,19 +43,22 @@
             // pictureBox_shaking
             // 
             this.pictureBox_shaking.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox_shaking.Location = new System.Drawing.Point(8, 12);
+            this.pictureBox_shaking.Location = new System.Drawing.Point(5, 8);
+            this.pictureBox_shaking.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox_shaking.Name = "pictureBox_shaking";
-            this.pictureBox_shaking.Size = new System.Drawing.Size(734, 804);
+            this.pictureBox_shaking.Size = new System.Drawing.Size(489, 536);
             this.pictureBox_shaking.TabIndex = 0;
             this.pictureBox_shaking.TabStop = false;
             // 
             // Form_Shaking
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(754, 839);
+            this.ClientSize = new System.Drawing.Size(503, 559);
             this.Controls.Add(this.pictureBox_shaking);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "Form_Shaking";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

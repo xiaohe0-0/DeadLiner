@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Cal));
             this.text_days = new System.Windows.Forms.TextBox();
             this.lab_days = new System.Windows.Forms.Label();
             this.btn_cal = new System.Windows.Forms.Button();
@@ -37,25 +38,28 @@
             // 
             // text_days
             // 
-            this.text_days.Location = new System.Drawing.Point(147, 36);
+            this.text_days.Location = new System.Drawing.Point(98, 24);
+            this.text_days.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.text_days.Name = "text_days";
-            this.text_days.Size = new System.Drawing.Size(152, 28);
+            this.text_days.Size = new System.Drawing.Size(103, 21);
             this.text_days.TabIndex = 0;
             // 
             // lab_days
             // 
             this.lab_days.AutoSize = true;
-            this.lab_days.Location = new System.Drawing.Point(79, 39);
+            this.lab_days.Location = new System.Drawing.Point(53, 26);
+            this.lab_days.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab_days.Name = "lab_days";
-            this.lab_days.Size = new System.Drawing.Size(62, 18);
+            this.lab_days.Size = new System.Drawing.Size(41, 12);
             this.lab_days.TabIndex = 1;
             this.lab_days.Text = "天数：";
             // 
             // btn_cal
             // 
-            this.btn_cal.Location = new System.Drawing.Point(116, 84);
+            this.btn_cal.Location = new System.Drawing.Point(77, 56);
+            this.btn_cal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_cal.Name = "btn_cal";
-            this.btn_cal.Size = new System.Drawing.Size(75, 43);
+            this.btn_cal.Size = new System.Drawing.Size(50, 29);
             this.btn_cal.TabIndex = 2;
             this.btn_cal.Text = "计算";
             this.btn_cal.UseVisualStyleBackColor = true;
@@ -66,9 +70,10 @@
             this.lab_res.AutoSize = true;
             this.lab_res.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lab_res.ForeColor = System.Drawing.Color.Blue;
-            this.lab_res.Location = new System.Drawing.Point(197, 93);
+            this.lab_res.Location = new System.Drawing.Point(131, 62);
+            this.lab_res.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab_res.Name = "lab_res";
-            this.lab_res.Size = new System.Drawing.Size(82, 21);
+            this.lab_res.Size = new System.Drawing.Size(55, 14);
             this.lab_res.TabIndex = 3;
             this.lab_res.Text = "label1";
             // 
@@ -76,23 +81,26 @@
             // 
             this.lab_tucao.AutoSize = true;
             this.lab_tucao.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lab_tucao.Location = new System.Drawing.Point(12, 140);
+            this.lab_tucao.Location = new System.Drawing.Point(8, 93);
+            this.lab_tucao.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab_tucao.Name = "lab_tucao";
-            this.lab_tucao.Size = new System.Drawing.Size(62, 18);
+            this.lab_tucao.Size = new System.Drawing.Size(41, 12);
             this.lab_tucao.TabIndex = 4;
             this.lab_tucao.Text = "label1";
             // 
             // Form_Cal
             // 
             this.AcceptButton = this.btn_cal;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 178);
+            this.ClientSize = new System.Drawing.Size(275, 119);
             this.Controls.Add(this.lab_tucao);
             this.Controls.Add(this.lab_res);
             this.Controls.Add(this.btn_cal);
             this.Controls.Add(this.lab_days);
             this.Controls.Add(this.text_days);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form_Cal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "算账";

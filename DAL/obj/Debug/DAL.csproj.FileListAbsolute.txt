@@ -21,3 +21,8 @@ C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\DAL\bin\Debug\DAL.pdb
 C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\DAL\obj\Debug\DAL.dll
 C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\DAL\obj\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\DeadLiner-master\DAL\bin\Debug\DAL.dll
+C:\Users\Administrator\Desktop\DeadLiner-master\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\DeadLiner-master\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\DeadLiner-master\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator\Desktop\DeadLiner-master\DAL\obj\Debug\DAL.pdb

@@ -29,16 +29,17 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.pannelList = new System.Windows.Forms.TableLayoutPanel();
             this.timer_showAlert = new System.Windows.Forms.Timer(this.components);
             this.timer_countdown = new System.Windows.Forms.Timer(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.btn_add = new System.Windows.Forms.ToolStripStatusLabel();
             this.split1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.btn_delete = new System.Windows.Forms.ToolStripStatusLabel();
             this.split2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.btn_update = new System.Windows.Forms.ToolStripStatusLabel();
             this.split3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btn_add = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btn_delete = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btn_update = new System.Windows.Forms.ToolStripStatusLabel();
             this.btn_cal = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -48,12 +49,12 @@
             this.pannelList.AutoScroll = true;
             this.pannelList.ColumnCount = 1;
             this.pannelList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.pannelList.Location = new System.Drawing.Point(4, 28);
+            this.pannelList.Location = new System.Drawing.Point(3, 19);
             this.pannelList.Margin = new System.Windows.Forms.Padding(0);
             this.pannelList.Name = "pannelList";
             this.pannelList.RowCount = 1;
             this.pannelList.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.pannelList.Size = new System.Drawing.Size(448, 798);
+            this.pannelList.Size = new System.Drawing.Size(299, 532);
             this.pannelList.TabIndex = 0;
             // 
             // timer_showAlert
@@ -75,67 +76,72 @@
             this.btn_update,
             this.split3,
             this.btn_cal});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 873);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 579);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(462, 29);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 9, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(308, 22);
             this.statusStrip1.TabIndex = 4;
             this.statusStrip1.Text = "statusStrip1";
-            // 
-            // btn_add
-            // 
-            this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(46, 24);
-            this.btn_add.Text = "添加";
-            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // split1
             // 
             this.split1.Name = "split1";
-            this.split1.Size = new System.Drawing.Size(15, 24);
-            this.split1.Text = "|";
-            // 
-            // btn_delete
-            // 
-            this.btn_delete.Name = "btn_delete";
-            this.btn_delete.Size = new System.Drawing.Size(46, 24);
-            this.btn_delete.Text = "删除";
-            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
+            this.split1.Size = new System.Drawing.Size(16, 17);
+            this.split1.Text = "  ";
             // 
             // split2
             // 
             this.split2.Name = "split2";
-            this.split2.Size = new System.Drawing.Size(15, 24);
-            this.split2.Text = "|";
-            // 
-            // btn_update
-            // 
-            this.btn_update.Name = "btn_update";
-            this.btn_update.Size = new System.Drawing.Size(46, 24);
-            this.btn_update.Text = "主题";
-            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
+            this.split2.Size = new System.Drawing.Size(16, 17);
+            this.split2.Text = "  ";
             // 
             // split3
             // 
             this.split3.Name = "split3";
-            this.split3.Size = new System.Drawing.Size(15, 24);
-            this.split3.Text = "|";
+            this.split3.Size = new System.Drawing.Size(16, 17);
+            this.split3.Text = "  ";
+            // 
+            // btn_add
+            // 
+            this.btn_add.Image = global::DeadLiner.Properties.Resources.bottom_add;
+            this.btn_add.Name = "btn_add";
+            this.btn_add.Size = new System.Drawing.Size(48, 17);
+            this.btn_add.Text = "添加";
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
+            // 
+            // btn_delete
+            // 
+            this.btn_delete.Image = global::DeadLiner.Properties.Resources.bottom_delete;
+            this.btn_delete.Name = "btn_delete";
+            this.btn_delete.Size = new System.Drawing.Size(48, 17);
+            this.btn_delete.Text = "删除";
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
+            // 
+            // btn_update
+            // 
+            this.btn_update.Image = global::DeadLiner.Properties.Resources.bottom_theme;
+            this.btn_update.Name = "btn_update";
+            this.btn_update.Size = new System.Drawing.Size(48, 17);
+            this.btn_update.Text = "主题";
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
             // 
             // btn_cal
             // 
+            this.btn_cal.Image = global::DeadLiner.Properties.Resources.bottom_income;
             this.btn_cal.Name = "btn_cal";
-            this.btn_cal.Size = new System.Drawing.Size(46, 24);
+            this.btn_cal.Size = new System.Drawing.Size(48, 17);
             this.btn_cal.Text = "收入";
             this.btn_cal.Click += new System.EventHandler(this.btn_cal_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(462, 902);
+            this.ClientSize = new System.Drawing.Size(308, 601);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.pannelList);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
