@@ -47,5 +47,8 @@ namespace DeadLiner
         public static string getRemindBG() {
             return "Images/" + picPath + "/remind_clock.png"; 
         }
+        public static string getSound() {
+            return "Images/" + picPath + "/shake.mp3"; 
+        }
     }
 }

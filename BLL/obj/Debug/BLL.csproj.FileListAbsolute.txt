@@ -19,3 +19,10 @@ C:\My Programs\C#\DeadLiner\BLL\bin\Debug\DAL.pdb
 C:\My Programs\C#\DeadLiner\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\My Programs\C#\DeadLiner\BLL\obj\Debug\BLL.dll
 C:\My Programs\C#\DeadLiner\BLL\obj\Debug\BLL.pdb
+C:\Users\H\Desktop\DeadLiner 20151009\BLL\bin\Debug\BLL.dll
+C:\Users\H\Desktop\DeadLiner 20151009\BLL\bin\Debug\BLL.pdb
+C:\Users\H\Desktop\DeadLiner 20151009\BLL\bin\Debug\DAL.dll
+C:\Users\H\Desktop\DeadLiner 20151009\BLL\bin\Debug\DAL.pdb
+C:\Users\H\Desktop\DeadLiner 20151009\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\H\Desktop\DeadLiner 20151009\BLL\obj\Debug\BLL.dll
+C:\Users\H\Desktop\DeadLiner 20151009\BLL\obj\Debug\BLL.pdb

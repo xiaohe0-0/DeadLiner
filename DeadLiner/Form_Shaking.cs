@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading;
+using System.Runtime.InteropServices; 
 
 namespace DeadLiner
 {
@@ -17,10 +18,18 @@ namespace DeadLiner
             InitializeComponent();
         }
 
+        [DllImport("winmm.dll")]
+        public static extern uint mciSendString(string lpstrCommand,
+        string lpstrReturnString, uint uReturnLength, uint hWndCallback); 
         private void Form_Shaking_Load(object sender, EventArgs e)
         {
             timer_wait.Start();
             this.pictureBox_shaking.BackgroundImage = new Bitmap(Utils.getShakeBG());
+            //System.Media.SystemSounds.Asterisk.Play();
+            string soundPath = Utils.getSound();
+            mciSendString(@"close all", null, 0, 0);
+            mciSendString(@"open "+soundPath+" alias song", null, 0, 0);
+            mciSendString("play song", null, 0, 0); 
         }
 
         private void formShake()

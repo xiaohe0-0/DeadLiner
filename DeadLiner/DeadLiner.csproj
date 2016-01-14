@@ -51,11 +51,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DeadLineDBDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="EmptyItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmptyItem.Designer.cs">
+      <DependentUpon>EmptyItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_ADD.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_ADD.Designer.cs">
       <DependentUpon>Form_ADD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Cal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Cal.Designer.cs">
+      <DependentUpon>Form_Cal.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Setting.cs">
       <SubType>Form</SubType>
@@ -96,8 +108,14 @@
       <DependentUpon>UserItem.cs</DependentUpon>
     </Compile>
     <Compile Include="Utils.cs" />
+    <EmbeddedResource Include="EmptyItem.resx">
+      <DependentUpon>EmptyItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_ADD.resx">
       <DependentUpon>Form_ADD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Cal.resx">
+      <DependentUpon>Form_Cal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Setting.resx">
       <DependentUpon>Form_Setting.cs</DependentUpon>
@@ -155,10 +173,10 @@
     </Content>
     <Content Include="Images\btn_close.jpg" />
     <Content Include="Images\clock_yellow.png" />
+    <None Include="Images\EmptyItem.png" />
     <Content Include="Images\Image_Clock1.jpg" />
     <Content Include="Images\remindBG.jpg" />
     <Content Include="Images\shakeBG.jpg" />
-    <Content Include="Images\shakeBG_Leader.png" />
     <Content Include="Images\underline.png" />
     <None Include="Resources\underline.bmp" />
     <None Include="Images\clock_red.png" />

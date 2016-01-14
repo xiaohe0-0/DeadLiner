@@ -30,11 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pannelList = new System.Windows.Forms.TableLayoutPanel();
-            this.btn_add = new System.Windows.Forms.Button();
-            this.btn_delete = new System.Windows.Forms.Button();
-            this.btn_update = new System.Windows.Forms.Button();
             this.timer_showAlert = new System.Windows.Forms.Timer(this.components);
             this.timer_countdown = new System.Windows.Forms.Timer(this.components);
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.btn_add = new System.Windows.Forms.ToolStripStatusLabel();
+            this.split1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btn_delete = new System.Windows.Forms.ToolStripStatusLabel();
+            this.split2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btn_update = new System.Windows.Forms.ToolStripStatusLabel();
+            this.split3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.btn_cal = new System.Windows.Forms.ToolStripStatusLabel();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pannelList
@@ -50,39 +56,6 @@
             this.pannelList.Size = new System.Drawing.Size(448, 798);
             this.pannelList.TabIndex = 0;
             // 
-            // btn_add
-            // 
-            this.btn_add.Location = new System.Drawing.Point(280, 849);
-            this.btn_add.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(50, 34);
-            this.btn_add.TabIndex = 1;
-            this.btn_add.Text = "+";
-            this.btn_add.UseVisualStyleBackColor = true;
-            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
-            // 
-            // btn_delete
-            // 
-            this.btn_delete.Location = new System.Drawing.Point(339, 849);
-            this.btn_delete.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_delete.Name = "btn_delete";
-            this.btn_delete.Size = new System.Drawing.Size(50, 34);
-            this.btn_delete.TabIndex = 2;
-            this.btn_delete.Text = "-";
-            this.btn_delete.UseVisualStyleBackColor = true;
-            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
-            // 
-            // btn_update
-            // 
-            this.btn_update.Location = new System.Drawing.Point(402, 849);
-            this.btn_update.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_update.Name = "btn_update";
-            this.btn_update.Size = new System.Drawing.Size(50, 34);
-            this.btn_update.TabIndex = 3;
-            this.btn_update.Text = "*";
-            this.btn_update.UseVisualStyleBackColor = true;
-            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
-            // 
             // timer_showAlert
             // 
             this.timer_showAlert.Tick += new System.EventHandler(this.timer_showAlert_Tick);
@@ -92,14 +65,74 @@
             this.timer_countdown.Interval = 1000;
             this.timer_countdown.Tick += new System.EventHandler(this.timer_countdown_Tick);
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btn_add,
+            this.split1,
+            this.btn_delete,
+            this.split2,
+            this.btn_update,
+            this.split3,
+            this.btn_cal});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 873);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(462, 29);
+            this.statusStrip1.TabIndex = 4;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // btn_add
+            // 
+            this.btn_add.Name = "btn_add";
+            this.btn_add.Size = new System.Drawing.Size(46, 24);
+            this.btn_add.Text = "添加";
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
+            // 
+            // split1
+            // 
+            this.split1.Name = "split1";
+            this.split1.Size = new System.Drawing.Size(15, 24);
+            this.split1.Text = "|";
+            // 
+            // btn_delete
+            // 
+            this.btn_delete.Name = "btn_delete";
+            this.btn_delete.Size = new System.Drawing.Size(46, 24);
+            this.btn_delete.Text = "删除";
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
+            // 
+            // split2
+            // 
+            this.split2.Name = "split2";
+            this.split2.Size = new System.Drawing.Size(15, 24);
+            this.split2.Text = "|";
+            // 
+            // btn_update
+            // 
+            this.btn_update.Name = "btn_update";
+            this.btn_update.Size = new System.Drawing.Size(46, 24);
+            this.btn_update.Text = "主题";
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
+            // 
+            // split3
+            // 
+            this.split3.Name = "split3";
+            this.split3.Size = new System.Drawing.Size(15, 24);
+            this.split3.Text = "|";
+            // 
+            // btn_cal
+            // 
+            this.btn_cal.Name = "btn_cal";
+            this.btn_cal.Size = new System.Drawing.Size(46, 24);
+            this.btn_cal.Text = "收入";
+            this.btn_cal.Click += new System.EventHandler(this.btn_cal_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(462, 902);
-            this.Controls.Add(this.btn_update);
-            this.Controls.Add(this.btn_delete);
-            this.Controls.Add(this.btn_add);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.pannelList);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -109,18 +142,26 @@
             this.Text = "DeadLiner";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.LocationChanged += new System.EventHandler(this.MainForm_LocationChanged);
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel pannelList;
-        private System.Windows.Forms.Button btn_add;
-        private System.Windows.Forms.Button btn_delete;
-        private System.Windows.Forms.Button btn_update;
         private System.Windows.Forms.Timer timer_showAlert;
         private System.Windows.Forms.Timer timer_countdown;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel btn_add;
+        private System.Windows.Forms.ToolStripStatusLabel split1;
+        private System.Windows.Forms.ToolStripStatusLabel btn_delete;
+        private System.Windows.Forms.ToolStripStatusLabel split2;
+        private System.Windows.Forms.ToolStripStatusLabel btn_update;
+        private System.Windows.Forms.ToolStripStatusLabel split3;
+        private System.Windows.Forms.ToolStripStatusLabel btn_cal;
 
 
 

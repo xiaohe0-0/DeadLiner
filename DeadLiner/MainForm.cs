@@ -51,6 +51,10 @@ namespace DeadLiner
                 userList[0].SetBackColor(0);
                 UserItem.setCurID(userList[0].UserID);
             }
+            else {
+                EmptyItem ei = new EmptyItem();
+                pannelList.Controls.Add(ei);
+            }
 
             //设置Utils的TOP&LEFT
             Utils.formTop = this.Top + this.Height / 3;
@@ -69,6 +73,7 @@ namespace DeadLiner
             dt = Utils.dbs.GetAllData(TABLENAME);
             //int cols = dt.Columns.Count;
             int rows = dt.Rows.Count;
+            pannelList.RowCount = rows;
             string textTime = "";
             string textContent = "";
             int userID;
@@ -122,7 +127,6 @@ namespace DeadLiner
                 };
                 userList.Add(uItem);
                 pannelList.Controls.Add(uItem);
-                pannelList.RowCount++;
             }
            
         }
@@ -154,7 +158,7 @@ namespace DeadLiner
                 return;
             }
 
-            if (DialogResult.OK == MessageBox.Show("确定删除选中的DeadLine吗？","系统提示",MessageBoxButtons.OKCancel,MessageBoxIcon.Information))
+            if (DialogResult.OK == MessageBox.Show("确定删除选中的DeadLine吗？", "系统提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Information))
             {
                 for (int i = 0; i < userList.Count; i++)
                 {
@@ -163,6 +167,12 @@ namespace DeadLiner
                         userList.RemoveAt(i);
                         pannelList.Controls.RemoveAt(i);
                         pannelList.RowCount--;
+                        if (pannelList.RowCount == 0)
+                        {
+                            EmptyItem ei = new EmptyItem();
+                            pannelList.Controls.Clear();
+                            pannelList.Controls.Add(ei);
+                        }
                         try
                         {
                             if (!Utils.dbs.DeleteOneItem(TABLENAME, curID))
@@ -182,6 +192,8 @@ namespace DeadLiner
 
         public void FreshItem(){
             pannelList.Controls.Clear();
+            pannelList.RowCount = 0;
+            userList.Clear();
             GetDeadLineData();
         }
 
@@ -247,6 +259,14 @@ namespace DeadLiner
                 }
             }
         }
+
+        //计算工资
+        private void btn_cal_Click(object sender, EventArgs e)
+        {
+            Form_Cal fc = new Form_Cal(Utils.formLeft, Utils.formTop);
+            fc.ShowDialog();
+        }
+
 
     }
 }
