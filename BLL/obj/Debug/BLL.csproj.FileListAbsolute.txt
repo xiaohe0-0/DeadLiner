@@ -26,3 +26,10 @@ C:\Users\H\Desktop\DeadLiner 20151009\BLL\bin\Debug\DAL.pdb
 C:\Users\H\Desktop\DeadLiner 20151009\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\H\Desktop\DeadLiner 20151009\BLL\obj\Debug\BLL.dll
 C:\Users\H\Desktop\DeadLiner 20151009\BLL\obj\Debug\BLL.pdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\BLL\bin\Debug\BLL.dll
+C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\BLL\bin\Debug\BLL.pdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\BLL\bin\Debug\DAL.dll
+C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\BLL\bin\Debug\DAL.pdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\BLL\obj\Debug\BLL.dll
+C:\Users\H\Desktop\DeadLiner\DeadLiner 20160114\BLL\obj\Debug\BLL.pdb

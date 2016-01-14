@@ -82,6 +82,7 @@ namespace DeadLiner
 
             //获取系统时间
             DateTime systemNow = DateTime.Now.Date;
+            //DateTime systemNow = DateTime.Now;
             countdownList.Clear();
 
             for (int ri = 0; ri < rows; ri++)
@@ -92,8 +93,8 @@ namespace DeadLiner
 
                 //根据时间设置图片
                 DateTime dtFormat = Convert.ToDateTime(textTime.Substring(0, textTime.IndexOf(" ")+1) + "0:00:00");
-                // MessageBox.Show(dtFormat.ToString());
-                //MessageBox.Show(systemNow.ToString());
+                //DateTime dtFormat = Convert.ToDateTime(textTime);
+            
                 if (DateTime.Compare(dtFormat, systemNow) > 0)
                 {
                     img = new Bitmap(Utils.getClock_blue());
@@ -115,6 +116,9 @@ namespace DeadLiner
                         {
                             timer_countdown.Start();
                         }
+                    }
+                    else {
+                        img = new Bitmap(Utils.getClock_red());
                     }
                 }
 
@@ -255,6 +259,7 @@ namespace DeadLiner
                     countdownList.RemoveAt(i);
                     Form_Shaking fs = new Form_Shaking();
                     fs.ShowDialog();
+                    FreshItem();
                     break;
                 }
             }
