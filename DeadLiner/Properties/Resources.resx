@@ -139,9 +139,6 @@
   <data name="underline" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\underline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shakeBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\shakeBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="EmptyItem" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\EmptyItem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -159,5 +156,17 @@
   </data>
   <data name="DeadLiner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\DeadLiner.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_delay_oneday" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_delay_oneday.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_delay_onehour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_delay_onehour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_delay_oneday1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_delay_oneday.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\hand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

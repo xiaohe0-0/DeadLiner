@@ -18,6 +18,7 @@ namespace DeadLiner
         private List<UserItem> userList;//存放所有的UserItem
         private bool remindSign = false;
         private List<string> countdownList;
+        private List<int> countdownID;
         private Form_Remind fr;
         private int curID;
 
@@ -42,6 +43,7 @@ namespace DeadLiner
             //初始化数据
             userList = new List<UserItem>();
             countdownList = new List<string>();
+            countdownID = new List<int>();
             fr = null;
 
             //得到数据库数据
@@ -84,6 +86,7 @@ namespace DeadLiner
             DateTime systemNow = DateTime.Now.Date;
             //DateTime systemNow = DateTime.Now;
             countdownList.Clear();
+            countdownID.Clear();
 
             for (int ri = 0; ri < rows; ri++)
             {
@@ -112,6 +115,7 @@ namespace DeadLiner
                     if (compareTime.CompareTo(nowTime) > 0)
                     {
                         countdownList.Add(textTime.Substring(10));
+                        countdownID.Add(userID);
                         if (!timer_countdown.Enabled)
                         {
                             timer_countdown.Start();
@@ -257,8 +261,62 @@ namespace DeadLiner
                 String compareDate = DateTime.Parse(countdownList[i]).ToString("HH:mm:ss");
                 if (compareDate.CompareTo(now) == 0) {
                     countdownList.RemoveAt(i);
+
+                    Utils.myRemindState = (int)Utils.remindState.NoAction;
                     Form_Shaking fs = new Form_Shaking();
                     fs.ShowDialog();
+
+                    //延迟一小时
+                    if (Utils.myRemindState == (int)Utils.remindState.DelayOneHour) {
+                        //生成新的时间 延迟一小时
+                        DataTable oriTable = Utils.dbs.GetCon(countdownID[i]);
+                        String oriDateTime = oriTable.Rows[0][1].ToString();
+                        String[] oriDateSplit = oriDateTime.Split(' ');
+                        String[] oriTimeSplit = oriDateSplit[1].Split(':');
+                        int newHour = int.Parse(oriTimeSplit[0]);
+                        newHour++;
+                        if (newHour < 24) {
+                            String newDateTime = oriDateSplit[0] + " " + newHour + ":" + oriTimeSplit[1] + ":" + oriTimeSplit[2];
+              
+                            try
+                            {             
+                                if (!Utils.dbs.UpdateOneTime(countdownID[i],newDateTime))
+                                {
+                                    MessageBox.Show("更改失败");
+                                }
+                            }
+                            catch (System.Exception ex)
+                            {
+                                MessageBox.Show(ex.ToString());
+                            }
+                        }
+                       
+                    }
+
+                    //延迟一天
+                    if (Utils.myRemindState == (int)Utils.remindState.DelayOneDay) {
+                        //生成新的时间 延迟一天
+                        DataTable oriTable = Utils.dbs.GetCon(countdownID[i]);
+                        String oriDateTime = oriTable.Rows[0][1].ToString();
+                        String[] oriTimeSplit = oriDateTime.Split(' ');
+                        String[] oriDateSplit = oriTimeSplit[0].Split('/');
+                        int oriDay = int.Parse(oriDateSplit[2]);
+                        oriDay++;
+                        String newDateTime = oriDateSplit[0] + "/" + oriDateSplit[1] + "/" + oriDay + " " + oriTimeSplit[1];
+
+                        //此处无日期的正确性验证
+                        try
+                        {
+                            if (!Utils.dbs.UpdateOneTime(countdownID[i], newDateTime))
+                            {
+                                MessageBox.Show("更改失败");
+                            }
+                        }
+                        catch (System.Exception ex)
+                        {
+                            MessageBox.Show(ex.ToString());
+                        }
+                    }
                     FreshItem();
                     break;
                 }

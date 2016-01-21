@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading;
-using System.Runtime.InteropServices; 
+using System.Runtime.InteropServices;
+using System.Drawing.Imaging;
 
 namespace DeadLiner
 {
@@ -24,11 +25,20 @@ namespace DeadLiner
         private void Form_Shaking_Load(object sender, EventArgs e)
         {
             timer_wait.Start();
-            this.pictureBox_shaking.BackgroundImage = new Bitmap(Utils.getShakeBG());
+            
+            if (Utils.theme.Equals("default"))
+            {
+                this.pictureBox_shaking.BackgroundImage = null;
+                this.pictureBox_shaking.Image = new Bitmap(Utils.getShakeBG());
+            }
+            else {
+                this.pictureBox_shaking.BackgroundImage = new Bitmap(Utils.getShakeBG());
+                this.pictureBox_shaking.Image = null;
+            }
             //System.Media.SystemSounds.Asterisk.Play();
             string soundPath = Utils.getSound();
             mciSendString(@"close all", null, 0, 0);
-            mciSendString(@"open "+soundPath+" alias song", null, 0, 0);
+            mciSendString(@"open " + soundPath + " alias song", null, 0, 0);
             mciSendString("play song", null, 0, 0); 
         }
 
@@ -72,5 +82,43 @@ namespace DeadLiner
             formShake();
             timer_wait.Stop();
         }
+
+        private void btn_delay1hour_Click(object sender, EventArgs e)
+        {
+            Utils.myRemindState = (int)Utils.remindState.DelayOneHour;
+            this.Close();
+        }
+
+        private void btn_delay1day_Click(object sender, EventArgs e)
+        {
+            Utils.myRemindState = (int)Utils.remindState.DelayOneDay;
+            this.Close();
+        }
+
+        private void pictureBox_shaking_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (Utils.theme.Equals("leader"))
+            {
+                
+                Rectangle rectangle = panel_special.RectangleToClient(this.ClientRectangle);
+                if (MousePosition.X > (this.Left+200) && MousePosition.X < (this.Left+400)
+                    && MousePosition.Y > (this.Top + 500) && MousePosition.Y < (this.Top + 540))
+                {
+                    Bitmap bmp = new Bitmap(Properties.Resources.hand);
+                    Cursor cursor = new Cursor(bmp.GetHicon());
+                    this.Cursor = cursor;
+
+                    //this.Cursor = System.Windows.Forms.Cursors.Hand;
+                    //this.Cursor = System.Windows.Forms.Cursors.No;
+                }
+                else
+                {
+                    this.Cursor = System.Windows.Forms.Cursors.Arrow;
+                }
+
+            }
+        }
+
+
     }
 }

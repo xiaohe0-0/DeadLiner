@@ -29,22 +29,6 @@ C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Prope
 C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.UserItem.resources
 C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_ADD.resources
-C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe.config
-C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.exe
-C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.pdb
-C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DB\DeadLineDB.accdb
-C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe
-C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.pdb
-C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\BLL.dll
-C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DAL.dll
-C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\BLL.pdb
-C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DAL.pdb
-C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csprojResolveAssemblyReference.cache
-C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_ADD.resources
-C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.MainForm.resources
-C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Properties.Resources.resources
-C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.UserItem.resources
-C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csproj.GenerateResource.Cache
 C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csprojResolveAssemblyReference.cache
 C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_ADD.resources
 C:\My Programs\C#\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_Setting.resources
@@ -195,3 +179,25 @@ C:\Users\Administrator\Desktop\DeadLiner-master\DeadLiner\obj\x86\Debug\DeadLine
 C:\Users\Administrator\Desktop\DeadLiner-master\DeadLiner\obj\x86\Debug\DeadLiner.Form_Remind.resources
 C:\Users\Administrator\Desktop\DeadLiner-master\DeadLiner\obj\x86\Debug\DeadLiner.UserItem.resources
 C:\Users\Administrator\Desktop\DeadLiner-master\DeadLiner\obj\x86\Debug\DeadLiner.csproj.GenerateResource.Cache
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DB\DeadLineDB.accdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe.config
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.exe
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DeadLiner.pdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\BLL.dll
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DAL.dll
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\BLL.pdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner\bin\Debug\DAL.pdb
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csprojResolveAssemblyReference.cache
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.EmptyItem.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_ADD.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_Cal.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_Setting.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_Shaking.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_Update.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.MainForm.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Properties.Resources.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.Form_Remind.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.UserItem.resources
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.csproj.GenerateResource.Cache
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.exe
+C:\Users\H\Desktop\DeadLiner\DeadLiner\obj\x86\Debug\DeadLiner.pdb

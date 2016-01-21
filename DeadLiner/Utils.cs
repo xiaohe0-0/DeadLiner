@@ -23,9 +23,14 @@ namespace DeadLiner
         public static string clock_yellow = "Images/" + picPath + "/clock_yellow.png";
         public static string shakeBG = "Images/" + picPath + "/shakeBG.png";
         public static string remindBG = "Images/" + picPath + "/remind_clock.png";
+        public enum remindState {NoAction = 0,DelayOneHour = 1,DelayOneDay = 2};
+        public static int myRemindState = (int)(remindState.NoAction);
 
         public static string getShakeBG()
         {
+            if (picPath.Equals("res_default")) {
+                return "Images/" + picPath + "/shakeBG.gif";
+            }
             return "Images/" + picPath + "/shakeBG.png";
         }
 

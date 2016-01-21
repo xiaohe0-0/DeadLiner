@@ -46,62 +46,69 @@
             // 
             // btn_cannel
             // 
-            this.btn_cannel.Location = new System.Drawing.Point(155, 142);
+            this.btn_cannel.Location = new System.Drawing.Point(232, 213);
+            this.btn_cannel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_cannel.Name = "btn_cannel";
-            this.btn_cannel.Size = new System.Drawing.Size(62, 23);
-            this.btn_cannel.TabIndex = 23;
+            this.btn_cannel.Size = new System.Drawing.Size(93, 34);
+            this.btn_cannel.TabIndex = 5;
             this.btn_cannel.Text = "取消";
             this.btn_cannel.UseVisualStyleBackColor = true;
             this.btn_cannel.Click += new System.EventHandler(this.btn_cannel_Click);
             // 
             // btn_ok
             // 
-            this.btn_ok.Location = new System.Drawing.Point(68, 142);
+            this.btn_ok.Location = new System.Drawing.Point(102, 213);
+            this.btn_ok.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_ok.Name = "btn_ok";
-            this.btn_ok.Size = new System.Drawing.Size(62, 23);
-            this.btn_ok.TabIndex = 22;
+            this.btn_ok.Size = new System.Drawing.Size(93, 34);
+            this.btn_ok.TabIndex = 4;
             this.btn_ok.Text = "确定";
             this.btn_ok.UseVisualStyleBackColor = true;
             this.btn_ok.Click += new System.EventHandler(this.btn_ok_Click);
             // 
             // textContent
             // 
-            this.textContent.Location = new System.Drawing.Point(96, 99);
+            this.textContent.Location = new System.Drawing.Point(144, 148);
+            this.textContent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textContent.Name = "textContent";
-            this.textContent.Size = new System.Drawing.Size(157, 21);
-            this.textContent.TabIndex = 21;
+            this.textContent.Size = new System.Drawing.Size(234, 28);
+            this.textContent.TabIndex = 3;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(49, 102);
+            this.label5.Location = new System.Drawing.Point(74, 153);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 12);
+            this.label5.Size = new System.Drawing.Size(62, 18);
             this.label5.TabIndex = 20;
             this.label5.Text = "提醒：";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(49, 67);
+            this.label2.Location = new System.Drawing.Point(74, 100);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 12);
+            this.label2.Size = new System.Drawing.Size(62, 18);
             this.label2.TabIndex = 14;
             this.label2.Text = "时间：";
             // 
             // set_date
             // 
-            this.set_date.Location = new System.Drawing.Point(96, 28);
+            this.set_date.Location = new System.Drawing.Point(144, 42);
+            this.set_date.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.set_date.Name = "set_date";
-            this.set_date.Size = new System.Drawing.Size(157, 21);
-            this.set_date.TabIndex = 13;
+            this.set_date.Size = new System.Drawing.Size(234, 28);
+            this.set_date.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(49, 31);
+            this.label1.Location = new System.Drawing.Point(74, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
+            this.label1.Size = new System.Drawing.Size(62, 18);
             this.label1.TabIndex = 12;
             this.label1.Text = "日期：";
             // 
@@ -109,21 +116,20 @@
             // 
             this.set_time.CustomFormat = "HH:mm:ss";
             this.set_time.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.set_time.Location = new System.Drawing.Point(96, 67);
-            this.set_time.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.set_time.Location = new System.Drawing.Point(144, 100);
             this.set_time.Name = "set_time";
             this.set_time.ShowUpDown = true;
-            this.set_time.Size = new System.Drawing.Size(157, 21);
-            this.set_time.TabIndex = 24;
+            this.set_time.Size = new System.Drawing.Size(234, 28);
+            this.set_time.TabIndex = 2;
             // 
             // status_time
             // 
             this.status_time.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.strip_time});
-            this.status_time.Location = new System.Drawing.Point(0, 170);
+            this.status_time.Location = new System.Drawing.Point(0, 266);
             this.status_time.Name = "status_time";
-            this.status_time.Padding = new System.Windows.Forms.Padding(1, 0, 9, 0);
-            this.status_time.Size = new System.Drawing.Size(301, 22);
+            this.status_time.Padding = new System.Windows.Forms.Padding(2, 0, 14, 0);
+            this.status_time.Size = new System.Drawing.Size(452, 22);
             this.status_time.TabIndex = 25;
             this.status_time.Text = "00:00:00";
             // 
@@ -139,9 +145,10 @@
             // 
             // Form_Update
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AcceptButton = this.btn_ok;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(301, 192);
+            this.ClientSize = new System.Drawing.Size(452, 288);
             this.Controls.Add(this.status_time);
             this.Controls.Add(this.set_time);
             this.Controls.Add(this.btn_cannel);
@@ -153,7 +160,6 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "Form_Update";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

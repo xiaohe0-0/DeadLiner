@@ -52,6 +52,11 @@ namespace BLL
             DBHelper dbh = new DBHelper(); 
             return dbh.ExecuteSql(sql);
         }
-        
+        public bool UpdateOneTime(int num, string upDate)
+        {
+            string sql = String.Format(@"Update DeadLine set DateItem='{0}' where ID={1}", upDate, num);
+            DBHelper dbh = new DBHelper();
+            return dbh.ExecuteSql(sql);
+        }
     }
 }

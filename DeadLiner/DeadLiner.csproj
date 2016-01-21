@@ -171,6 +171,9 @@
     <Content Include="DB\DeadLineDB.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\btn_delay_oneday.jpg" />
+    <None Include="Resources\btn_delay_onehour.png" />
+    <None Include="Resources\btn_delay_oneday.png" />
     <None Include="Images\bottom_add.png" />
     <None Include="Images\bottom_delete.png" />
     <None Include="Images\bottom_income.png" />
@@ -179,6 +182,7 @@
     <Content Include="Images\clock_yellow.png" />
     <None Include="Images\EmptyItem.png" />
     <None Include="Images\DeadLiner.ico" />
+    <None Include="Images\hand.png" />
     <Content Include="Images\Image_Clock1.jpg" />
     <Content Include="Images\remindBG.jpg" />
     <Content Include="Images\shakeBG.jpg" />
